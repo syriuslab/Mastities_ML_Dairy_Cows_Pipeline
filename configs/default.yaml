@@ -1,0 +1,19 @@
+# Default configuration for reproducible runs
+random_seed: 42
+
+paths:
+  data_dir: ./data
+  figures_dir: ./figures
+
+tabular:
+  csv_file: ./data/mastitis_tabular.csv  # change with your filename
+  target_column: class1
+  test_size: 0.2
+  val_size: 0.2
+
+imaging:
+  images_dir: ./data/images
+  img_size: [224, 224]
+
+fusion:
+  imaging_weight: 0.25
