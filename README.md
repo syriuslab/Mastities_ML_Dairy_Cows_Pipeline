@@ -1,4 +1,4 @@
-# Multimodal Mastitis Detection – Imaging + Sensor Fusion
+# Multimodal Mastitis Detection – Imaging + Sensor Fusion for IoT purposes
 
 This repository contains the code and the Jupyter notebook used to run the multimodal (tabular + thermal imaging) pipeline for early mastitis detection in dairy cows.
 
